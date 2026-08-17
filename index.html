@@ -9,6 +9,16 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
 
+  <script>
+    // Fix page reload scrolling directly to hash anchors
+    if (window.location.hash) {
+      window.scrollTo(0, 0);
+      setTimeout(() => {
+        window.location.hash = '';
+      }, 10);
+    }
+  </script>
+
   <style>
     /* --------------------------------------------------
      * 1. CSS VARIABLES & RESET
@@ -699,7 +709,7 @@
           <ul>
             <li><a href="https://github.com/Project-SENTRI" target="_blank" rel="noopener">GitHub</a></li>
             <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></li>
-            <li><a href="mailto:projectsentri@gmail.com">projectsentri@gmail.com</a></li>
+            <li><a href="mailto:project_sentri@gmail.com">project_sentri@gmail.com</a></li>
             <li><a href="#involved">Get Involved</a></li>
           </ul>
         </div>
